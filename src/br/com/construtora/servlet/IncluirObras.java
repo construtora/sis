@@ -40,7 +40,7 @@ public class IncluirObras extends HttpServlet {
 		}
 		
 		// grave nessa conexão!!! ( e salva obra em banco de dados via DAO)
-		InterfaceDao d;
+		ObraDao d;
 		try 
 		{
 			d = new ObraDao(); 
